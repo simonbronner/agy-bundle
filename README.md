@@ -20,7 +20,7 @@ This repository contains the configuration to build a Docker image that bundles 
 To extract the `agy` binaries for all platforms to a directory on your host machine, run:
 
 ```bash
-docker run --rm -v $(pwd)/binaries:/target ghcr.io/<owner>/agy:latest
+docker run --rm -v $(pwd)/binaries:/target ghcr.io/simonbronner/agy-bundle:latest
 ```
 
 This will create a `binaries/` directory with the following structure:
